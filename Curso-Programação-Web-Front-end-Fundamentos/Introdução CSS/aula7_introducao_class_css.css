@@ -1,0 +1,38 @@
+h1{
+    color: crimson;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+  
+}
+  
+h2{
+ text-decoration:underline
+}
+  
+ul{
+  color:rgb(99, 17, 17);
+  font-size: 25px;
+  
+}
+  
+p{
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 20px;
+}
+  
+body{
+    color: rgb(40, 40, 153);
+    background-color: beige;
+  
+}
+
+.destaque {
+    color: brown;
+    font-weight: bold;
+}
+
+#destaqueid {
+    color: blueviolet;
+    font-weight: bold;
+}
