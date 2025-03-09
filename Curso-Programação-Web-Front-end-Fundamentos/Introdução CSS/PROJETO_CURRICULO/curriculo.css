@@ -1,0 +1,57 @@
+body{
+    background-color:rgb(230, 240, 237);
+    font-family: monospace;
+    width: 80%;
+    margin: auto;
+    color: black;
+}
+
+h1, h2{
+    text-align: center;
+    text-decoration: underline;
+    background-color: rgba(30, 141, 104, 0.658);
+    height: 50px;
+    border-left: 5px double black;
+    border-right: 5px double black;
+}
+
+.introducao{
+    width: 350px;
+    text-align: left;
+    margin-left: 0;
+
+}
+
+h3{
+    font-size: 20px;
+    padding-left: 40px;
+}
+
+ol{
+    font-size: 20px;
+    text-align: left;
+    list-style: none;
+    list-style-position: outside;
+}
+
+h2{
+    text-align: left;
+    font-size: 30px;
+    padding-left: 40px;
+}
+
+p{
+    text-align: justify;
+    font-size: 20px;
+    border-left: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.especial{
+    list-style-type:disc;
+}
+
+b{
+    background-color:rgb(211, 161, 23) ;
+}
