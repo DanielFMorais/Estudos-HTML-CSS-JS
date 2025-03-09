@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Todos os Box model</title>
+
+    <style>
+        body{
+            background-color: azure;
+        }
+
+        h1{
+            font-size: 50px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        hr{
+            width: 70%;
+            margin-left: 0;
+        }
+
+        h2{
+            text-transform: uppercase;
+            font-family:'Times New Roman', Times, serif;
+            color: brown;
+        }
+
+        p{
+            font-size: 17px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            width: 70%;
+        }
+
+        .box{
+            background-color: rgb(233, 146, 146);
+            width: 500px;
+        }
+
+        .test1{
+            padding: 25px;
+        }
+
+        .test2{
+            padding: 25px;
+            border: 25px solid #ccc;
+        }
+
+        .test3{
+            padding: 25px;
+            border: 25px solid #ccc;
+
+            box-sizing: border-box;
+        }
+    </style>
+
+</head>
+
+<body>
+    
+    <h1>Introdução Box-sizing</h1>
+
+    <hr>
+    <h2>Box de referência</h2>
+
+    <p class="box">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt obcaecati ex rerum perspiciatis accusamus ratione expedita omnis eveniet optio voluptate?</p>
+    
+    <p>TODOS OS BOX ESTÃO CONFIGURADOS PARA 500PX</p>
+    <hr>
+    <!-- ------------------------------- -->
+    
+    <p>Exemplo1:</p>
+
+    <p class="box test1">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat eligendi aliquam in numquam ipsa libero laudantium incidunt officiis id vitae!
+    </p>
+
+    <p>Podemos ver que ele ficou maior com a adição de 25px de padding (enchimento interno), ou sejá, se esta crescendo 25px para esquerda e direita, ele esta agora com 50px a mais</p>
+    <hr>
+    <!-- ------------------------------- -->
+    
+    <p>Exemplo2:</p>
+
+    <p class="box test2">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat eligendi aliquam in numquam ipsa libero laudantium incidunt officiis id vitae!
+    </p>
+
+    <p>Aqui aumentou ainda mais, tendo os 50px de enchimento e mais 50px de borda (25 de cada lado esquerdo e direito, estamos discondierando embaixo e encima) assim o produto final tem 600px</p>
+    <hr>
+    <!-- ------------------------------- -->
+    
+    <p>Exemplo3:</p>
+
+    <p class="box test3">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat eligendi aliquam in numquam ipsa libero laudantium incidunt officiis id vitae!
+    </p>
+
+    <p>Assim podemos ver que o produto (box) mesmo tendo as edições apresentadas ainda se mantem no memso tamanho inicialmente determinado, que era de 500 px</p>
+    <!-- ------------------------------- -->
+    
