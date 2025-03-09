@@ -1,0 +1,26 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: antiquewhite;
+    color: red
+}
+
+a{
+    display: inline-block;
+    padding: 10px;
+}
+
+a:link{
+    color:rgb(0, 60, 255)
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    background-color: blueviolet;
+}
+
+a:active{
+    background-color: coral;
+}
