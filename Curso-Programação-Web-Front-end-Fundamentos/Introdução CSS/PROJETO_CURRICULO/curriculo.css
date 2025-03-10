@@ -55,3 +55,21 @@ p{
 b{
     background-color:rgb(211, 161, 23) ;
 }
+
+.github{
+    display:inline-block;
+    margin-left: 40px;
+    background-color: #ccc;
+    text-align: center;
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+
+}
+
+.linkedin{
+    display: inline-block;
+    background-color: #ccc;
+    width: 60px;
+    height: 60px;
+}
